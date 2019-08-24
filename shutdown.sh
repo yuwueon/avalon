@@ -1,0 +1,1 @@
+ps -ef|grep java|grep jar|awk '{print $2}' |xargs kill
